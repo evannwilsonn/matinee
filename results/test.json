@@ -1,0 +1,8 @@
+[
+  {"name":"Global mean","users":601,"coverage":0.0024,"precisionAt10":0.0138,"recallAt10":0.0113,"rmse":1.0509,"ndcgAt10":0.0149},
+  {"name":"User + movie biases","users":601,"coverage":0.0019,"precisionAt10":0.0208,"recallAt10":0.0184,"rmse":0.8676,"ndcgAt10":0.0209},
+  {"name":"Most popular","users":601,"coverage":0.0062,"precisionAt10":0.1171,"recallAt10":0.0945,"rmse":null,"ndcgAt10":0.1551},
+  {"name":"Explicit ALS","users":601,"coverage":0.0195,"precisionAt10":0.0002,"recallAt10":0.0002,"rmse":0.8969,"ndcgAt10":0.0002},
+  {"name":"Explicit ALS + biases","users":601,"coverage":0.025,"precisionAt10":0.0175,"recallAt10":0.0121,"rmse":0.8543,"ndcgAt10":0.0164},
+  {"name":"Implicit ALS","users":601,"coverage":0.0822,"precisionAt10":0.204,"recallAt10":0.2016,"rmse":null,"ndcgAt10":0.2725}
+]

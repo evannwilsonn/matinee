@@ -1,0 +1,12 @@
+target/
+project/target/
+project/project/
+.bsp/
+.idea/
+.metals/
+.bloop/
+data/ml-latest-small/
+data/*.zip
+output/
+spark-warehouse/
+*.crc

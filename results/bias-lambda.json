@@ -1,0 +1,7 @@
+[
+  {"lambda":1,"rmse":0.8732},
+  {"lambda":3,"rmse":0.8701},
+  {"lambda":5,"rmse":0.8716},
+  {"lambda":10,"rmse":0.8772},
+  {"lambda":25,"rmse":0.8914}
+]

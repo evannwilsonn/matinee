@@ -1,0 +1,1 @@
+{"relevantAtLeast":4,"seed":2026,"biasLambda":3,"validationShare":0.2,"implicit":{"rank":64,"lambda":0.1,"alpha":1},"testShare":0.2,"explicit":{"rank":10,"lambda":0.2},"k":10,"explicitWithBiases":{"rank":40,"lambda":0.2}}

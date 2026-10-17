@@ -1,0 +1,1 @@
+{"explicit":{"rmseMine":0.9045,"predictionCorrelation":0.9933,"lambda":0.2,"rank":10,"rmseSpark":0.9034},"implicit":{"alpha":1,"ndcgMine":0.1839,"ndcgSpark":0.1808,"top10Overlap":0.6882,"lambda":0.1,"rank":64}}

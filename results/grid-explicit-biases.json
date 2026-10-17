@@ -1,0 +1,22 @@
+[
+  {"rank":5,"lambda":0.02,"rmse":0.9971},
+  {"rank":5,"lambda":0.05,"rmse":0.9393},
+  {"rank":5,"lambda":0.1,"rmse":0.8902},
+  {"rank":5,"lambda":0.2,"rmse":0.8662},
+  {"rank":5,"lambda":0.5,"rmse":0.8701},
+  {"rank":10,"lambda":0.02,"rmse":1.0116},
+  {"rank":10,"lambda":0.05,"rmse":0.9267},
+  {"rank":10,"lambda":0.1,"rmse":0.8804},
+  {"rank":10,"lambda":0.2,"rmse":0.8618},
+  {"rank":10,"lambda":0.5,"rmse":0.8701},
+  {"rank":20,"lambda":0.02,"rmse":0.9821},
+  {"rank":20,"lambda":0.05,"rmse":0.9098},
+  {"rank":20,"lambda":0.1,"rmse":0.8703},
+  {"rank":20,"lambda":0.2,"rmse":0.8608},
+  {"rank":20,"lambda":0.5,"rmse":0.8701},
+  {"rank":40,"lambda":0.02,"rmse":0.9209},
+  {"rank":40,"lambda":0.05,"rmse":0.88},
+  {"rank":40,"lambda":0.1,"rmse":0.862},
+  {"rank":40,"lambda":0.2,"rmse":0.8607},
+  {"rank":40,"lambda":0.5,"rmse":0.8701}
+]

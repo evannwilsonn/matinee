@@ -1,0 +1,8 @@
+[
+  {"name":"Global mean","step":"baseline","coverage":0.0021,"note":"Predicts the average rating for everything.","precisionAt10":0.0124,"recallAt10":0.0138,"rmse":1.0456,"ndcgAt10":0.0146},
+  {"name":"User + movie biases","step":"baseline","coverage":0.002,"note":"μ + b_user + b_movie, λ = 3.0.","precisionAt10":0.0216,"recallAt10":0.0232,"rmse":0.8701,"ndcgAt10":0.025},
+  {"name":"Most popular","step":"baseline","coverage":0.0038,"note":"Most-rated movies the user hasn't seen.","precisionAt10":0.0867,"recallAt10":0.1009,"rmse":null,"ndcgAt10":0.1251},
+  {"name":"Explicit ALS","step":"model","coverage":0.0215,"note":"rank 10, λ 0.2, raw ratings.","precisionAt10":0.0005,"recallAt10":0.0006,"rmse":0.9045,"ndcgAt10":0.0004},
+  {"name":"Explicit ALS + biases","step":"improvement","coverage":0.0281,"note":"rank 40, λ 0.2, factorises what the bias model misses.","precisionAt10":0.0188,"recallAt10":0.0186,"rmse":0.8607,"ndcgAt10":0.0191},
+  {"name":"Implicit ALS","step":"improvement","coverage":0.0756,"note":"rank 64, λ 0.1, α 1.0: who rated what, weighted by stars.","precisionAt10":0.1225,"recallAt10":0.1688,"rmse":null,"ndcgAt10":0.1839}
+]

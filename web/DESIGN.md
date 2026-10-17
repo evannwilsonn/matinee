@@ -1,26 +1,26 @@
 # Matinee demo: design notes
 
-The page should feel like a **repertory cinema's printed programme**: a listing you read down, not an app you operate.
+The page is a **neighbourhood video store after dark**. You browse a shelf, pull tapes, rate them at the counter, and the staff pin up picks for you. The results print out as a till receipt.
 
 ## Tokens (defined at the top of `template.html`)
 
-- **Neutrals:** cool grey paper (`#eceef0`) and near-black ink. Dark mode is a projection-booth near-black (`#121214`).
-- **Corners:** 0px everywhere.
+- **Walls:** pale sage green (`#dfe5df`), with deep green-black (`#121614`) when the lights are off. Shelves are wood (`#8a6644`).
 - **Type:**
-  - Newsreader for display, film titles and the italic years.
-  - Atkinson Hyperlegible for the interface and body text.
-- **One accent:** oxblood (`#7d1a26` light, `#e0717c` dark). It appears in the rank numerals, the stars you've given, and the deployed model's row of the results table. Nothing else gets it.
-- **One signature:** large italic serif numerals running down the margin of the picks, the way a programme numbers its screenings. Don't add a second one.
+  - Big Shoulders Display, uppercase, for anything printed on a sign or a spine.
+  - Archivo for reading.
+  - Courier Prime for labels, stickers and the receipt.
+- **Aisle colours:** eight colour-coded aisles, one per genre group. These colours mean "which aisle", nothing else.
+- **One accent:** price-sticker yellow (`#f2c230`). It marks what you've done: rated-tape stickers, the chosen rating, pick numbers and the headline highlight.
+- **Shape:** square edges, round stickers only. Shelf-talkers sit a fraction of a degree off straight, so they look pinned up by hand.
 
 ## Things to avoid
 
-- Film-strip or popcorn imagery.
-- Card shadows.
-- Pill buttons.
-- Uppercase eyebrow labels.
-- A second accent colour.
-- Poster images (they aren't ours to use).
+- Any real rental chain's logo, colours or ticket shape.
+- Cover art (it isn't ours to use).
+- Neon glow.
+- Gradients on the surfaces.
+- A second sticker colour.
 
 ## Voice
 
-Plain and specific. Say what the model did ("Mostly because you rated…"), and say plainly what it can't know.
+Shop-floor plain: "Pull a few tapes", "Ask for it", "Not in stock". The receipt and notes say exactly what was measured.
